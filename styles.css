@@ -1,0 +1,54 @@
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  background-image: url("bg3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;   /* grows with content, no stretching */
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: beige;
+  font-family: "Instrument Serif", serif;
+  line-height: 75%;
+  margin-top: 230px;
+  font-size: 250px;
+  margin-bottom: 10px;
+
+}
+
+.btn {
+  display: block;
+  margin: 25px auto 0;
+  padding: 10px 30px;
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: beige;
+  background: transparent;
+  border: 1px solid #cfd9de;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: beige;
+  color: #111;
+}
